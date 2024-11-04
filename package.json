@@ -1,0 +1,27 @@
+{
+  "name": "alter-office",
+  "version": "1.0.0",
+  "description": "Alter office interview task",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "concurrently \"tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "author": "Balaji S",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3",
+    "yup": "^1.4.0"
+  }
+}
